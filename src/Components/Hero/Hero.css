@@ -99,3 +99,57 @@
 .hero-footer-button:hover {
     background: linear-gradient(to right, #63a4ff, #1e90ff);
 }
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-button {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-header {
+        top: 5px;
+        right: 10px;
+    }
+
+    .connect-button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .hero-content {
+        padding: 10px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+        padding-top: 30px;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .hero-button {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .hero-footer-button {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+}
