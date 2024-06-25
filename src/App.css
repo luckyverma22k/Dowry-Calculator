@@ -1,0 +1,15 @@
+/* App.css */
+.section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+  }
+  
+  #dowry {
+    min-height: 100vh;
+  }
+  
+  #salary {
+    min-height: 100vh;
+  }
+  
